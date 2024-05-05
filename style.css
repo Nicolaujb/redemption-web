@@ -1,0 +1,298 @@
+/* Reset default margin and padding */
+.icon {
+    width: 2px; /* Adjust the size as needed */
+    height: 2px;
+    border-radius: 50px; /* Makes it circular */
+    overflow: hidden; /* Clips the image to the circle */
+}
+
+#body {
+    margin: 0;
+    padding: 0;
+  background-color: rgb(199, 237, 250);
+}
+
+.top {
+  display: block;
+    position:relative;
+    width: 100%;
+    height: 60px;
+}
+.logo {
+  vertical-align: top;
+  display: inline-block;
+  width: 50px;
+}
+.logos {
+  width: 50px;
+  border-radius: 40px;
+  margin-left: 10px;
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+.search-bar {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px; /* Adjust margin to position it to the left */
+}
+
+.p1 {
+  display: inline-block;
+  margin-left: 100px;
+  position:absolute ;
+  margin-top:15px;
+  color: white;
+  vertical-align: top;
+  right: 0;
+}
+.pp1 {
+  color: rgb(234, 192, 23);
+  background-color: beige;
+  font-size: 25px;
+  text-align: center;
+  justify-content: right;
+  align-items:end;
+ margin-right: 10px;
+ padding-top: 10px;
+ padding-left: 5px;
+ padding-right: 5px;
+ margin-top: -5px;
+}
+.search-input {
+  width: px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items:center;
+}
+.submit {
+  width: px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: 0.6s;
+  background-color: #7ab7f9;
+  color: white;
+}
+.submit:hover {
+  background-color: white;
+  color: black;
+}
+.submit:active {
+  background-color: #7ab7f9;
+}
+/* Style the tab container */
+
+.tab-container {
+    display: flex;
+    background-color: #7ab7f9;
+    position:relative;
+    top: px;
+    width: 100%;
+    
+}
+
+/* Style the tab links */
+.tab-container a {
+    padding: 10px 20px;
+    text-decoration:solid;
+    color: #333;
+    transition: background-color 0.5s;
+    position:sticky;
+    width: 500px;
+    left: 15px;
+    right: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tab-container a:hover {
+    background-color: rgb(199, 237, 250);
+}
+.tab-container A:active {
+  background-color: #3586ff;
+  color: black;
+}
+/* Style the tab content */
+.tab-content {
+    display: none;
+    padding-top: ;
+    padding-bottom: 40px;
+    
+
+}
+
+/* Show the active tab content */
+.tab-content:target {
+    display: block;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html, body {
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    height: 100%;
+    background-color:rgb(199, 237, 250);
+}
+
+/* Container for the entire page */
+#container {
+    min-height: 100%;
+    position: relative;
+}
+
+/* Main content area */
+#body {
+    padding: 10px;
+    margin-bottom: 200px;
+    /* Leave room for the footer */
+    padding-bottom: 200px; /* Height of the footer */
+}
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: #3586ff;
+        min-height: 150px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 65px;
+        color: white;
+        text-align: center;
+      } 
+      .social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5px 0;
+  flex-wrap: wrap;
+}
+.fy {
+  display: block;
+}
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+.social-icon__link {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 30px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
+  .menu1 {
+    display: block;
+    height: 30px;
+    padding: auto;
+  }
+  .menu__link {
+    font-size: 15px;
+    color: white;
+    margin: 0 25px;
+    display: inline-block;
+    transition: 0.2s;
+    text-decoration: none;
+    opacity: ;
+    font-weight: 300;
+    padding: 3px;
+   
+  }
+  .menu__link:hover {
+    opacity: 1;
+    border-style:outset ;
+  }
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .wave {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: url("https://i.ibb.co/wQZVxxk/wave.png");
+    background-size: 1000px 100px;
+  }
+  .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+  }
+  
+  .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+  }
+  
+  .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+  }
+  
+  .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+  }
+  
+  @keyframes animateWaves {
+    0% {
+      background-position-x: 1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position-x: -1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+  
